@@ -36,4 +36,13 @@ A React application that allows users to search for GitHub profiles and view det
 
 - Optionally, click Home to reset the search and start over.
 
+---
+
+## Screenshots
+
+# Light Mode Start Screen
+![Light Mode Start Screen](devfinder2.jpg)
+
+# Dark Mode Search
+![Dark Mode Search](devfinder3.jpg)
 
