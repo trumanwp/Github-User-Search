@@ -52,8 +52,8 @@ function App() {
             <nav className="flex flex-row absolute top-0 mt-6 justify-between items-center text-black dark:text-white w-full lg:max-w-1/2">
                 <h1 onClick={handleHomeClick} className="ml-10 sm:ml-18 lg:ml-0 text-2xl">devfinder</h1>
                 <div className="flex flex-row gap-3 mr-10 sm:mr-16 lg:mr-0 items-center">
-                    <h2 className="text-md tracking-widest">LIGHT</h2>
-                    <img onClick={toggleDark} className="size-5" src={dark ? Moon : Sun} alt="sun icon"/>
+                    <h2 className="text-md tracking-widest">{dark ? "DARK" : "LIGHT"}</h2>
+                    <img onClick={toggleDark} className="size-5" src={dark ? Sun : Moon} alt="sun icon"/>
                 </div>
             </nav>
 
