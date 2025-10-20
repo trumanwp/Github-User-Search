@@ -12,6 +12,8 @@ import {useState} from "react";
 
 function App() {
 
+    // Test commit here
+
     const [username, setUsername] = useState("");
     const [submittedUser, setSubmittedUser] = useState(null);
     const [dark, setDark] = useState(true);
@@ -41,6 +43,8 @@ function App() {
         setSubmittedUser(null);
         setUsername("");
     }
+
+
 
   return (
       // Entire page container
